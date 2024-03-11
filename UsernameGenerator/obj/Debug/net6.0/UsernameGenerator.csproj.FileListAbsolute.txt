@@ -1,0 +1,15 @@
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/bin/Debug/net6.0/UsernameGenerator
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/bin/Debug/net6.0/UsernameGenerator.deps.json
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/bin/Debug/net6.0/UsernameGenerator.runtimeconfig.json
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/bin/Debug/net6.0/UsernameGenerator.dll
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/bin/Debug/net6.0/UsernameGenerator.pdb
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.csproj.AssemblyReference.cache
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.AssemblyInfoInputs.cache
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.AssemblyInfo.cs
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.csproj.CoreCompileInputs.cache
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.dll
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/refint/UsernameGenerator.dll
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.pdb
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/UsernameGenerator.genruntimeconfig.cache
+/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/obj/Debug/net6.0/ref/UsernameGenerator.dll

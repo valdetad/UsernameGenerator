@@ -1,14 +1,27 @@
 ﻿<Properties StartupConfiguration="{DF028A3B-BEB8-4C34-AE9E-10B3C7950673}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.UsernameGenerator FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UsernameGenerator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/valdetademiri/Desktop/UsernameGenerator/UsernameGenerator/Program.cs" relfile="UsernameGenerator/Program.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="UsernameGenerator/Program.cs">
     <Files>
-      <File FileName="UsernameGenerator/Program.cs" Line="4" Column="1" />
+      <File FileName="UsernameGenerator/Program.cs" Line="45" Column="2" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UsernameGenerator">
+            <Node name="UsernameGenerator">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
 </Properties>
