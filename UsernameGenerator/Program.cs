@@ -2,9 +2,11 @@
 
 class Program
 {
+    const string confirmationMsgYES = "Welcome to our platform ";
+    const string confirmationMsgNO = "New username suggestion is ";
+
     static void Main(string[] args)
     {
-   
         Console.WriteLine("Enter your name: ");
         string name = LettersOnlyInput();
 
@@ -14,22 +16,23 @@ class Program
         var generatedUsername = UsernameGenerator(name, surname);
 
         Console.WriteLine("This is your username based on your name and surname: " + generatedUsername);
-
-        // Create separate function for this!
         Console.WriteLine("Do you like the suggested username? (Y/N)");
+        GetUserConfirmation(generatedUsername, name, surname);
+    }
 
+    static void GetUserConfirmation(string generatedUsername, string name, string surname)
+    {
         string confirmation = Console.ReadLine();
-
         if (!string.IsNullOrWhiteSpace(confirmation))
         {
             if (confirmation.ToUpper() == "Y")
             {
-                Console.WriteLine("Welcome to our platform, " + generatedUsername);
+                Console.WriteLine(confirmationMsgYES + generatedUsername);
             }
             else if (confirmation.ToUpper() == "N")
             {
                 Console.WriteLine("Generating new username .... ");
-                Console.WriteLine("New username suggestion is: " + UsernameGenerator(name, surname));
+                Console.WriteLine(confirmationMsgNO + UsernameGenerator(name, surname));
             }
             else
             {
