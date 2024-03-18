@@ -2,9 +2,14 @@
 
 class Program
 {
+
     const string confirmationMsgYES = "Welcome to our platform ";
     const string confirmationMsgNO = "New username suggestion is ";
+    const string APPROVE = "Y";
+    const string DISAPPROVE = "N";
 
+   
+  
     static void Main(string[] args)
     {
         Console.WriteLine("Enter your name: ");
@@ -15,21 +20,21 @@ class Program
 
         var generatedUsername = UsernameGenerator(name, surname);
 
-        Console.WriteLine("This is your username based on your name and surname: " + generatedUsername);
+        Console.WriteLine($"This is your username based on your name and surname: {generatedUsername}");
         Console.WriteLine("Do you like the suggested username? (Y/N)");
         GetUserConfirmation(generatedUsername, name, surname);
     }
 
     static void GetUserConfirmation(string generatedUsername, string name, string surname)
     {
-        string confirmation = Console.ReadLine();
+        string? confirmation = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(confirmation))
         {
-            if (confirmation.ToUpper() == "Y")
+            if (confirmation.ToUpper() == APPROVE)
             {
-                Console.WriteLine(confirmationMsgYES + generatedUsername);
+                Console.WriteLine($"{confirmationMsgYES}{generatedUsername}");
             }
-            else if (confirmation.ToUpper() == "N")
+            else if (confirmation.ToUpper() == DISAPPROVE)
             {
                 Console.WriteLine("Generating new username .... ");
                 Console.WriteLine(confirmationMsgNO + UsernameGenerator(name, surname));
@@ -47,7 +52,7 @@ class Program
 
     static string LettersOnlyInput()
     {
-        string input;
+        string? input;
         while (true)
         {
             input = Console.ReadLine();

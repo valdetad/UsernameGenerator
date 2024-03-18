@@ -1,23 +1,23 @@
-﻿<Properties StartupConfiguration="{DF028A3B-BEB8-4C34-AE9E-10B3C7950673}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingMD">
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>UsernameGenerator/UsernameGenerator.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="UsernameGenerator/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
-      <File FileName="UsernameGenerator/Program.cs" Line="7" Column="1" />
+      <File FileName=".gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UsernameGenerator" expanded="True">
-            <Node name="UsernameGenerator" expanded="True" />
-          </Node>
+          <Node name="UsernameGenerator" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.UsernameGenerator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
