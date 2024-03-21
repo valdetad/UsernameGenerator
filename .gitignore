@@ -1,0 +1,104 @@
+# Visual Studio files
+.vs/
+*.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+*.userprefs
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.mdb
+*.mde
+*.msi
+*.mso
+*.pdm
+*.pgc
+*.pgd
+*.sbr
+*.swp
+*.tlh
+*.tli
+*.tlb
+*.tlh
+*.manifest
+*.res
+*.resx
+*.tlb
+*.tli
+*.tlh
+*.pdb
+*.idb
+*.dll
+*.exe
+*.obj
+*.asm
+*.pch
+*.clw
+*.scc
+*.zip
+*.aps
+*.ncb
+*.aps
+*.pdb
+*.ilk
+*.log
+*.idb
+*.manifest
+*.obj
+*.pch
+*.res
+*.exe
+*.dll
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.tlog
+*.log
+*.lastbuildstate
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+
+# Rider files
+.idea/
+*.sln.iml
+
+# NuGet packages
+/packages/
+*.nupkg
+# Including the build folders from the tools directory
+tools/**/bin/
+tools/**/obj/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Visual Studio Code .vscode
+.vscode/
