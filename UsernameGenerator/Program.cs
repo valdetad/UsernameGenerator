@@ -5,8 +5,8 @@ class Program
 
     const string confirmationMsgYES = "Welcome to our platform ";
     const string confirmationMsgNO = "New username suggestion is ";
-    const string APPROVE = "Y";
-    const string DISAPPROVE = "N";
+    const string Approved = "Y";
+    const string Declined = "N";
 
    
   
@@ -25,16 +25,17 @@ class Program
         GetUserConfirmation(generatedUsername, name, surname);
     }
 
+
     static void GetUserConfirmation(string generatedUsername, string name, string surname)
     {
         string? confirmation = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(confirmation))
         {
-            if (confirmation.ToUpper() == APPROVE)
+            if (confirmation.ToUpper() == Approved)
             {
                 Console.WriteLine($"{confirmationMsgYES}{generatedUsername}");
             }
-            else if (confirmation.ToUpper() == DISAPPROVE)
+            else if (confirmation.ToUpper() == Declined)
             {
                 Console.WriteLine("Generating new username .... ");
                 Console.WriteLine(confirmationMsgNO + UsernameGenerator(name, surname));
