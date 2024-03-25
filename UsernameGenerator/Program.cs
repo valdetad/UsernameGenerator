@@ -1,16 +1,11 @@
 ﻿using System;
+using UsernameGenerator;
 
-class Program
+public class Program : ApplicationConstants
 {
-
-    const string confirmationMsgYES = "Welcome to our platform ";
-    const string confirmationMsgNO = "New username suggestion is ";
-    const string Approved = "Y";
-    const string Declined = "N";
-
    
   
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Enter your name: ");
         string name = LettersOnlyInput();
