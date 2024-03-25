@@ -8,10 +8,10 @@ public class Program : ApplicationConstants
     public static void Main(string[] args)
     {
         Console.WriteLine("Enter your name: ");
-        string name = LettersOnlyInput();
+        string name = UserGenValidator.LettersOnlyInput();
 
         Console.WriteLine("Enter your surname: ");
-        string surname = LettersOnlyInput();
+        string surname = UserGenValidator.LettersOnlyInput();
 
         var generatedUsername = UsernameGenerator(name, surname);
 
@@ -44,35 +44,6 @@ public class Program : ApplicationConstants
         {
             Console.WriteLine("Please enter valid confirmation!");
         }
-    }
-
-    static string LettersOnlyInput()
-    {
-        string? input;
-        while (true)
-        {
-            input = Console.ReadLine();
-            if (IsAllLetters(input))
-            {
-                return input;
-            }
-            else
-            {
-                Console.WriteLine("Invalid input! Please enter only letters.");
-            }
-        }
-    }
-
-    static bool IsAllLetters(string input)
-    {
-        foreach (char c in input)
-        {
-            if (!char.IsLetter(c))
-            {
-                return false;
-            }
-        }
-        return true;
     }
 
     static string UsernameGenerator(string name, string surname)
