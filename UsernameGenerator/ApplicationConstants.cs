@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace UsernameGenerator
 {
 
@@ -14,4 +13,3 @@ namespace UsernameGenerator
 
     }
 }
-
