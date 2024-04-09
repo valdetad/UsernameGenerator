@@ -1,10 +1,7 @@
-﻿using System;
-using UsernameGenerator;
+﻿using UsernameGenerator;
 
 public class Program : ApplicationConstants
 {
-
-
     public static void Main(string[] args)
     {
         Console.WriteLine("Enter your name: ");
@@ -19,5 +16,4 @@ public class Program : ApplicationConstants
         Console.WriteLine("Do you like the suggested username? (Y/N)");
         UsernameGenHelper.GetUserConfirmation(generatedUsername, name, surname);
     }
-
 }

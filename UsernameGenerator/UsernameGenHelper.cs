@@ -1,13 +1,11 @@
-﻿using System;
-
-namespace UsernameGenerator
+﻿namespace UsernameGenerator
 {
     public static class UsernameGenHelper
     {
         public static void GetUserConfirmation(string generatedUsername, string name, string surname)
         {
             Console.WriteLine("Enter your confirmation (Approved/Declined): ");
-            string confirmation = Console.ReadLine();
+            string? confirmation = Console.ReadLine();
 
             if (!string.IsNullOrWhiteSpace(confirmation))
             {
@@ -40,5 +38,3 @@ namespace UsernameGenerator
         }
     }
 }
-
-

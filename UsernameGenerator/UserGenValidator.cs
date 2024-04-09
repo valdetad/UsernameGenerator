@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace UsernameGenerator
+﻿namespace UsernameGenerator
 {
     public static class UserGenValidator
     {
         public static string LettersOnlyInput()
         {
             string? input;
+            // instead of true check the count of input
             while (true)
             {
                 input = Console.ReadLine();

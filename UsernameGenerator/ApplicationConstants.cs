@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace UsernameGenerator
+﻿namespace UsernameGenerator
 {
 
     public class ApplicationConstants
@@ -10,6 +8,5 @@ namespace UsernameGenerator
         protected const string confirmationMsgNO = "New username suggestion is ";
         protected const string Approved = "Y";
         protected const string Declined = "N";
-
     }
 }
